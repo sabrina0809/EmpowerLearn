@@ -132,3 +132,66 @@ Plataformas: web e mobile
 
 
 Prazos e expectativas: metade do ano de 2026, expectativas são de ter um patrocinador 
+
+
+
+
+
+--------------------------------------------------------------------
+
+
+AULA DO DIA 05/08
+
+
+
+REQUISITOS FUNCIONAIS: 
+Cadastro de usuários: Professores e instituições criam seus perfis com informações relevantes, como área de atuação e contato.
+
+Busca e interação: Instituições podem buscar professores por critérios como área e localização. Depois de encontrar o profissional ideal, podem enviar solicitações de contratação.
+
+Gerenciamento e comunicação: A plataforma permite a edição de perfis, um sistema de chat para conversas e notificações em tempo real.
+
+Avaliação e histórico: Após o serviço, ambos os lados podem dar feedback. Além disso, a plataforma armazena o histórico de interações.
+
+Controle de acesso: Diferentes perfis (professor, instituição e administrador) têm permissões específicas, garantindo a segurança e o acesso adequado.
+
+
+
+/////////////////////////////////
+
+
+Requisitos Não Funcionais do EmpowerLearn:
+
+Estes requisitos garantem que o sistema funcione bem, seja seguro e fácil de usar, sem especificar o que ele faz.
+
+Desempenho: O sistema precisa ser rápido, respondendo em menos de 2 segundos e suportando até 10 mil usuários ao mesmo tempo sem ficar lento.
+
+Usabilidade: A plataforma deve ser fácil de usar e se adaptar a qualquer dispositivo (computador, tablet ou celular), permitindo que um novo usuário se cadastre em até 3 minutos.
+
+Disponibilidade: A plataforma precisa ficar online a maior parte do tempo (99,5% do mês) e, quando precisar de manutenção, o aviso deve ser dado com pelo menos 24 horas de antecedência.
+
+Segurança: Todos os dados dos usuários, especialmente as senhas, devem ser protegidos com criptografia. O sistema também precisa se defender de ataques comuns da internet.
+
+Escalabilidade: A plataforma deve ser capaz de crescer e suportar mais usuários e dados no futuro.
+
+Portabilidade e Compatibilidade: O sistema deve funcionar em navegadores web e em aplicativos para celulares (Android e iOS), além de ser compatível com os principais navegadores e sistemas operacionais.
+
+Manutenibilidade: O código da plataforma deve ser organizado e fácil de entender, o que facilita futuras atualizações e correções de bugs.
+
+
+/////////////////////////////////////////
+
+ATORES: 
+
+
+Professor: Profissional de educação que cria seu perfil, lista suas qualificações e interage com instituições para oferecer serviços.
+
+Instituição de Ensino: Escolas, universidades ou outras organizações que buscam e contratam professores para serviços.
+
+Pais e Alunos: Dependendo do escopo da plataforma, podem ter perfis próprios. Eles interagem com professores ou instituições para agendar aulas particulares, acompanhar o desempenho do aluno ou consultar informações.
+
+Administrador do Sistema: Responsável por gerenciar a plataforma, monitorar o uso, e garantir o bom funcionamento do sistema.
+
+
+
+/////////////////////////////////////////
