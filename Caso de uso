@@ -1,152 +1,152 @@
  1️⃣ Criar Conta e Gerenciar Perfil
 
-* **Ator Principal:** Contratante / Professor
-* **Pré-condições:** Usuário não possui conta na plataforma; acesso à internet.
-* **Fluxo Principal:**
+Ator Principal:** Contratante / Professor
+Pré-condições:** Usuário não possui conta na plataforma; acesso à internet.
+Fluxo Principal:
 
   1. Usuário acessa a página de cadastro.
   2. Preenche os campos obrigatórios (nome, e-mail, senha, etc.).
   3. Confirma cadastro via e-mail/telefone.
   4. Perfil é criado e pode ser editado posteriormente.
-* **Fluxo Alternativo:**
+Fluxo Alternativo
 
-  * Usuário tenta criar conta com e-mail já cadastrado → sistema exibe alerta e oferece recuperação de senha.
-* **Pós-condições:** Conta criada com sucesso e perfil inicial disponível para edição.
+  Usuário tenta criar conta com e-mail já cadastrado → sistema exibe alerta e oferece recuperação de senha.
+  Pós-condições: Conta criada com sucesso e perfil inicial disponível para edição.
 
 
 2️⃣ Escolher e Assinar Plano
 
-* **Ator Principal:** Contratante / Professor
-* **Pré-condições:** Usuário possui conta ativa; acesso a métodos de pagamento.
-* **Fluxo Principal:**
+Ator Principal: Contratante / Professor
+Pré-condições: Usuário possui conta ativa; acesso a métodos de pagamento.
+Fluxo Principal:
 
   1. Usuário acessa página de planos.
   2. Seleciona plano desejado (básico, profissional, premium).
   3. Informa dados de pagamento e confirma assinatura.
   4. Assinatura é ativada e benefícios liberados.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Pagamento recusado → sistema exibe erro e solicita outro método de pagamento.
-* **Pós-condições:** Usuário tem assinatura ativa e acesso aos recursos do plano escolhido.
+  Pagamento recusado → sistema exibe erro e solicita outro método de pagamento.
+Pós-condições: Usuário tem assinatura ativa e acesso aos recursos do plano escolhido.
 
----
+
 
  3️⃣ Preencher Formulário de Contratação
 
-* **Ator Principal:** Contratante
-* **Pré-condições:** Usuário com conta ativa e plano vigente.
-* **Fluxo Principal:**
+Ator Principal: Contratante
+Pré-condições: Usuário com conta ativa e plano vigente.
+Fluxo Principal:
 
   1. Contratante acessa formulário de contratação.
   2. Preenche informações obrigatórias e adicionais da vaga (matéria, experiência, formação, salário etc.).
   3. Envia formulário.
   4. Sistema gera lista de professores compatíveis.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Formulário incompleto → sistema alerta e impede envio até preencher campos obrigatórios.
-* **Pós-condições:** Solicitação de contratação registrada e professores filtrados para recomendação.
+   Formulário incompleto → sistema alerta e impede envio até preencher campos obrigatórios.
+ Pós-condições: Solicitação de contratação registrada e professores filtrados para recomendação.
 
 
  4️⃣ Pesquisar e Filtrar Professores
 
-* **Ator Principal:** Contratante
-* **Pré-condições:** Contratante com plano ativo; professores cadastrados na plataforma.
-* **Fluxo Principal:**
+Ator Principal: Contratante
+Pré-condições: Contratante com plano ativo; professores cadastrados na plataforma.
+Fluxo Principal:
 
   1. Contratante acessa ferramenta de busca.
   2. Aplica filtros (matéria, localização, preço, avaliação).
   3. Visualiza lista de resultados compatíveis.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Nenhum professor encontrado → sistema sugere ampliar filtros ou tentar outro período.
-* **Pós-condições:** Lista de professores adequada às preferências do contratante disponível.
+  Nenhum professor encontrado → sistema sugere ampliar filtros ou tentar outro período.
+Pós-condições: Lista de professores adequada às preferências do contratante disponível.
 
 
  5️⃣ Visualizar Perfil de Professor
 
-* **Ator Principal:** Contratante
-* **Pré-condições:** Professores cadastrados e visíveis na plataforma.
-* **Fluxo Principal:**
+Ator Principal: Contratante
+Pré-condições: Professores cadastrados e visíveis na plataforma.
+Fluxo Principal:
 
   1. Contratante seleciona professor na lista.
   2. Sistema exibe perfil detalhado (formação, experiência, avaliações, disponibilidade).
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Professor bloqueou perfil → sistema exibe mensagem de indisponibilidade.
-* **Pós-condições:** Contratante visualizou informações completas do professor.
+ Professor bloqueou perfil → sistema exibe mensagem de indisponibilidade.
+ Pós-condições: Contratante visualizou informações completas do professor.
 
 
 6️⃣ Receber Notificações de Oportunidades
 
-* **Ator Principal:** Professor
-* **Pré-condições:** Professor com perfil ativo e plano vigente.
-* **Fluxo Principal:**
+Ator Principal: Professor
+Pré-condições: Professor com perfil ativo e plano vigente.
+Fluxo Principal:
 
   1. Sistema identifica vaga compatível com perfil.
   2. Envia notificação por e-mail ou app.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Professor desativa notificações → não recebe alertas até reativar.
-* **Pós-condições:** Professor informado sobre novas oportunidades.
+  Professor desativa notificações → não recebe alertas até reativar.
+Pós-condições: Professor informado sobre novas oportunidades.
 
 
  7️⃣ Candidatar-se a Vaga
 
-* **Ator Principal:** Professor
-* **Pré-condições:** Professor com conta ativa; vagas disponíveis.
-* **Fluxo Principal:**
+Ator Principal: Professor
+Pré-condições:Professor com conta ativa; vagas disponíveis.
+Fluxo Principal:
 
   1. Professor acessa lista de vagas.
   2. Seleciona vaga desejada.
   3. Envia candidatura.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Vaga expirada ou preenchida → candidatura não enviada; sistema notifica.
-* **Pós-condições:** Candidatura registrada e visível no histórico do professor.
+  Vaga expirada ou preenchida → candidatura não enviada; sistema notifica.
+Pós-condições: Candidatura registrada e visível no histórico do professor.
 
 
 
 8️⃣ Avaliar Professor
 
-* **Ator Principal:** Contratante
-* **Pré-condições:** Professor contratado e contrato concluído.
-* **Fluxo Principal:**
+Ator Principal: Contratante
+Pré-condições: Professor contratado e contrato concluído.
+Fluxo Principal:
 
   1. Contratante acessa histórico de contratações.
   2. Seleciona professor a ser avaliado.
   3. Preenche formulário de avaliação (didática, pontualidade, profissionalismo etc.).
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Avaliação não enviada → sistema lembra usuário posteriormente.
-* **Pós-condições:** Avaliação registrada e influencia recomendações futuras.
+  Avaliação não enviada → sistema lembra usuário posteriormente.
+  Pós-condições: Avaliação registrada e influencia recomendações futuras.
 
 
  9️⃣ Avaliar Instituição
 
-* **Ator Principal:** Professor
-* **Pré-condições:** Contrato finalizado com a instituição.
-* **Fluxo Principal:**
+Ator Principal: Professor
+Pré-condições: Contrato finalizado com a instituição.
+Fluxo Principal:
 
   1. Professor acessa histórico de contratos.
   2. Seleciona instituição a ser avaliada.
   3. Preenche formulário de avaliação (condições de trabalho, ambiente, comunicação).
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Avaliação não enviada → sistema lembra posteriormente.
-* **Pós-condições:** Avaliação registrada e influencia futuras interações do professor.
+  Avaliação não enviada → sistema lembra posteriormente.
+  Pós-condições: Avaliação registrada e influencia futuras interações do professor.
 
 
  🔟 Renovar ou Cancelar Assinatura
 
-* **Ator Principal:** Contratante / Professor
-* **Pré-condições:** Usuário com assinatura ativa.
-* **Fluxo Principal:**
+Ator Principal: Contratante / Professor
+Pré-condições: Usuário com assinatura ativa.
+Fluxo Principal:
 
   1. Usuário acessa área de assinaturas.
   2. Escolhe renovar ou cancelar plano.
   3. Sistema atualiza status da assinatura.
-* **Fluxo Alternativo:**
+Fluxo Alternativo:
 
-  * Pagamento falha na renovação → sistema alerta usuário e solicita outro método.
-* **Pós-condições:** Assinatura renovada ou cancelada com sucesso.
+  Pagamento falha na renovação → sistema alerta usuário e solicita outro método.
+  Pós-condições: Assinatura renovada ou cancelada com sucesso.
 
